@@ -13,7 +13,7 @@ export const Account = () => {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [succ, setSucc] = useState(false)
-  const PublicFlo = "http://localhost:5000/images/"
+  const PublicFlo = "https://bloghub-r8yq.onrender.com/images/"
 
   const handleSubmit = async (e) => {
     e.preventDefault()
